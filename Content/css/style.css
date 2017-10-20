@@ -1,0 +1,242 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+ul, li {
+  list-style: none; }
+
+html {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 50px; }
+
+img, div, body, html, ul, li, a {
+  -webkit-touch-callout: none; }
+  img input::-webkit-input-placeholder, img textarea::-webkit-input-placeholder, div input::-webkit-input-placeholder, div textarea::-webkit-input-placeholder, body input::-webkit-input-placeholder, body textarea::-webkit-input-placeholder, html input::-webkit-input-placeholder, html textarea::-webkit-input-placeholder, ul input::-webkit-input-placeholder, ul textarea::-webkit-input-placeholder, li input::-webkit-input-placeholder, li textarea::-webkit-input-placeholder, a input::-webkit-input-placeholder, a textarea::-webkit-input-placeholder {
+    color: #999; }
+
+input {
+  outline: 0; }
+
+html, body, .container {
+  width: 100%;
+  height: 100%; }
+
+body {
+  font-size: .32rem;
+  background: #EDEDED; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.head {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #CECECE;
+  background: #fff;
+  margin-bottom: 5px; }
+  .head span a {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    color: #9D9D9D; }
+  .head span a.bg {
+    border-bottom: 3px solid #474747;
+    color: #474747; }
+  .head span.icon {
+    color: #696969; }
+
+.set {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll; }
+  .set .banner {
+    width: 100%;
+    height: 2.45rem;
+    background: #fff; }
+    .set .banner img {
+      width: 100%; }
+  .set .swiper-pagination span {
+    width: .5rem;
+    border-radius: 0; }
+  .set .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    padding-top: 20px;
+    background: #fff; }
+    .set .nav dl {
+      width: 25%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .set .nav dl dt {
+        background: red;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        line-height: 30px; }
+        .set .nav dl dt i.icon {
+          color: #fff; }
+      .set .nav dl dd {
+        line-height: 3; }
+  .set .main {
+    position: relative;
+    background: #fff; }
+    .set .main img {
+      width: 100%; }
+    .set .main p {
+      position: absolute;
+      left: 25px;
+      top: 20px;
+      font-size: .45rem;
+      color: #fff; }
+  .set .box {
+    width: 100%;
+    background: #fff; }
+    .set .box h3 {
+      font-size: .35rem;
+      color: #474747;
+      line-height: 2; }
+    .set .box table {
+      text-align: center; }
+      .set .box table i.icon {
+        font-size: .56rem; }
+      .set .box table dd {
+        line-height: 1.5; }
+    .set .box table td {
+      border: 1px solid #ccc; }
+  .set .xs {
+    width: 100%;
+    background: #fff; }
+    .set .xs h3 {
+      font-size: .35rem;
+      color: #474747;
+      line-height: 2; }
+      .set .xs h3 span {
+        float: right;
+        padding-top: 10px; }
+        .set .xs h3 span time {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: #333333;
+          line-height: 20px;
+          color: #fff;
+          text-align: center;
+          margin-right: 5px; }
+    .set .xs .xs-main {
+      display: flex; }
+      .set .xs .xs-main dl {
+        width: 50%;
+        border: 1px solid #ccc;
+        margin: 10px;
+        position: relative; }
+        .set .xs .xs-main dl .img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 30px; }
+        .set .xs .xs-main dl dt img {
+          width: 100%;
+          padding: 10px; }
+        .set .xs .xs-main dl dd {
+          text-align: center;
+          padding: 10px; }
+          .set .xs .xs-main dl dd p {
+            text-align: center; }
+          .set .xs .xs-main dl dd span {
+            color: red;
+            float: left;
+            margin-right: 10px;
+            font-size: .28rem; }
+  .set .hd {
+    width: 100%;
+    background: #fff; }
+    .set .hd h3 {
+      font-size: .35rem;
+      color: #474747;
+      line-height: 2; }
+      .set .hd h3 span {
+        float: right;
+        margin-right: 5px; }
+    .set .hd .hd-main {
+      display: flex;
+      border-top: 1px solid #ccc; }
+      .set .hd .hd-main dl {
+        width: 33%; }
+        .set .hd .hd-main dl dt img {
+          width: 100%; }
+        .set .hd .hd-main dl dd {
+          padding: 10px; }
+          .set .hd .hd-main dl dd p {
+            font-size: .32rem; }
+          .set .hd .hd-main dl dd span {
+            font-size: .28rem;
+            color: red; }
+      .set .hd .hd-main .two {
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc; }
+  .set .like {
+    width: 100%;
+    background: #fff; }
+    .set .like h3 {
+      font-size: .35rem;
+      color: #474747;
+      line-height: 2; }
+      .set .like h3 span {
+        float: right;
+        margin-right: 5px; }
+    .set .like .like-main {
+      display: flex;
+      border-top: 1px solid #ccc; }
+      .set .like .like-main dl {
+        border-bottom: 1px solid #ccc; }
+        .set .like .like-main dl dt img {
+          width: 100%; }
+        .set .like .like-main dl dd {
+          padding: 10px; }
+          .set .like .like-main dl dd h3 {
+            font-size: .32rem; }
+          .set .like .like-main dl dd p {
+            font-size: .28rem; }
+          .set .like .like-main dl dd span {
+            font-size: .28rem;
+            color: red;
+            margin-right: 5px; }
+      .set .like .like-main .two {
+        border-left: 1px solid #ccc; }
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #fff; }
+  footer span {
+    width: 20%;
+    text-align: center;
+    line-height: 1.5; }
+    footer span i.icon {
+      font-size: .5rem; }
+  footer span.bg {
+    color: #4183FF; }
+
+/*# sourceMappingURL=style.css.map */
